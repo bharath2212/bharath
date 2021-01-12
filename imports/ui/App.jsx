@@ -13,7 +13,7 @@ export const App = () => (
       <Heading /> 
     </div>
     <div className="middle">   
-      <Time time={newDate} />
+      <Time/>
       <ProduceItems />
       <DubbedList />
     </div>
