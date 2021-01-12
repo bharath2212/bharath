@@ -1,14 +1,14 @@
 .producedList{
     width: 300px;
-    height: 300px;
-
+    height: 100%;
+    box-shadow: 1 1px 6px 1 rgba(32, 33, 36, .28)
 }
-
   .flip-card {
     background-color: transparent;
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    box-shadow: 1 1px 6px 1 rgba(32, 33, 36, .28)
   }
   
   .flip-card-inner {
@@ -18,7 +18,7 @@
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
   }
   
   .flip-card:hover .flip-card-inner {
