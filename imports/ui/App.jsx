@@ -3,8 +3,7 @@ import {DubbedList} from './DubbedList';
 import {Foot} from './Foot'
 import {Heading} from './Heading'
 import {MenuItems} from './MenuItems'
-import {ProduceItems  } from './ProduceItems'
-import {Time} from './Time'
+import {ProduceItems  } from './ProduceItems'git
 
 export const App = () => (
   <div>
@@ -13,7 +12,6 @@ export const App = () => (
       <Heading /> 
     </div>
     <div className="middle">   
-      <Time/>
       <ProduceItems />
       <DubbedList />
     </div>
